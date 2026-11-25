@@ -1,0 +1,291 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Skill&Tell//EUNOIA media plan//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:EUNOIA media plan
+X-WR-TIMEZONE:Africa/Algiers
+BEGIN:VEVENT
+UID:eunoia-2026-11-24-0@skillntell
+DTSTAMP:20261125T165659Z
+DTSTART:20261124T190000Z
+DURATION:PT15M
+SUMMARY:EUNOIA · Post: Teaser
+DESCRIPTION:Publish at 20:00 (Algeria).\nGoal: Spark curiosi
+ ty before the name is out.\nCTA: Turn on post notifications
+ .
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:In 2 hours: Post "Teaser" goes live at 20:00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eunoia-2026-11-25-1@skillntell
+DTSTAMP:20261125T165659Z
+DTSTART:20261125T200000Z
+DURATION:PT15M
+SUMMARY:EUNOIA · Reel: Teaser reel 1
+DESCRIPTION:Publish at 21:00 (Algeria).\nGoal: Reach new acc
+ ounts and set the mood.\nCTA: Follow so you don’t miss it.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:In 2 hours: Reel "Teaser reel 1" goes live at 21
+ :00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eunoia-2026-11-26-2@skillntell
+DTSTAMP:20261125T165659Z
+DTSTART:20261126T200000Z
+DURATION:PT15M
+SUMMARY:EUNOIA · Reel: Teaser reel 2
+DESCRIPTION:Publish at 21:00 (Algeria).\nGoal: Escalate the 
+ mystery.\nCTA: Comment what you think it spells.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:In 2 hours: Reel "Teaser reel 2" goes live at 21
+ :00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eunoia-2026-11-27-3@skillntell
+DTSTAMP:20261125T165659Z
+DTSTART:20261127T190000Z
+DURATION:PT15M
+SUMMARY:EUNOIA · Post: EUNOIA · 12.12.2026
+DESCRIPTION:Publish at 20:00 (Algeria).\nGoal: Reveal the na
+ me and the date.\nCTA: Save the date.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:In 2 hours: Post "EUNOIA · 12.12.2026" goes live
+  at 20:00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eunoia-2026-11-28-4@skillntell
+DTSTAMP:20261125T165659Z
+DTSTART:20261128T180000Z
+DURATION:PT15M
+SUMMARY:EUNOIA · Post: Guess the theme
+DESCRIPTION:Publish at 19:00 (Algeria).\nGoal: Drive comment
+ s and saves.\nCTA: Guess in the comments. Best guesses get 
+ a story shout-out.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:In 2 hours: Post "Guess the theme" goes live at 
+ 19:00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eunoia-2026-11-29-5@skillntell
+DTSTAMP:20261125T165659Z
+DTSTART:20261129T200000Z
+DURATION:PT15M
+SUMMARY:EUNOIA · Reel: Teaser reel 3
+DESCRIPTION:Publish at 21:00 (Algeria).\nGoal: Close the tea
+ ser arc on a cliffhanger.\nCTA: Turn on notifications for T
+ uesday.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:In 2 hours: Reel "Teaser reel 3" goes live at 21
+ :00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eunoia-2026-12-01-6@skillntell
+DTSTAMP:20261125T165659Z
+DTSTART:20261201T200000Z
+DURATION:PT15M
+SUMMARY:EUNOIA · Reel: Event explainer
+DESCRIPTION:Publish at 21:00 (Algeria).\nGoal: Explain what 
+ EUNOIA is and how to take part.\nCTA: Full details in the n
+ ext posts.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:In 2 hours: Reel "Event explainer" goes live at 
+ 21:00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eunoia-2026-12-02-7@skillntell
+DTSTAMP:20261125T165659Z
+DTSTART:20261202T190000Z
+DURATION:PT15M
+SUMMARY:EUNOIA · Post: About EUNOIA
+DESCRIPTION:Publish at 20:00 (Algeria).\nGoal: Give the even
+ t its meaning and values.\nCTA: Share it with someone who s
+ hould be there.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:In 2 hours: Post "About EUNOIA" goes live at 20:
+ 00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eunoia-2026-12-03-8@skillntell
+DTSTAMP:20261125T165659Z
+DTSTART:20261203T180000Z
+DURATION:PT15M
+SUMMARY:EUNOIA · Post: Registrations are open
+DESCRIPTION:Publish at 19:00 (Algeria).\nGoal: Turn attentio
+ n into sign-ups.\nCTA: Register via the link in bio.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:In 2 hours: Post "Registrations are open" goes l
+ ive at 19:00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eunoia-2026-12-04-9@skillntell
+DTSTAMP:20261125T165659Z
+DTSTART:20261204T200000Z
+DURATION:PT15M
+SUMMARY:EUNOIA · Reel: Trend launch
+DESCRIPTION:Publish at 21:00 (Algeria).\nGoal: Get the commu
+ nity making content for us.\nCTA: Recreate it\, tag the clu
+ b\, use the hashtag.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:In 2 hours: Reel "Trend launch" goes live at 21:
+ 00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eunoia-2026-12-05-10@skillntell
+DTSTAMP:20261125T165659Z
+DTSTART:20261205T180000Z
+DURATION:PT15M
+SUMMARY:EUNOIA · Post: Meet the juries
+DESCRIPTION:Publish at 19:00 (Algeria).\nGoal: Build credibi
+ lity.\nCTA: Tell us who you want to meet.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:In 2 hours: Post "Meet the juries" goes live at 
+ 19:00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eunoia-2026-12-06-11@skillntell
+DTSTAMP:20261125T165659Z
+DTSTART:20261206T190000Z
+DURATION:PT15M
+SUMMARY:EUNOIA · Post: Exhibitors
+DESCRIPTION:Publish at 20:00 (Algeria).\nGoal: Show what vis
+ itors will discover.\nCTA: Tag the exhibitor you’re most ex
+ cited about.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:In 2 hours: Post "Exhibitors" goes live at 20:00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eunoia-2026-12-07-12@skillntell
+DTSTAMP:20261125T165659Z
+DTSTART:20261207T190000Z
+DURATION:PT15M
+SUMMARY:EUNOIA · Post: Sponsors
+DESCRIPTION:Publish at 20:00 (Algeria).\nGoal: Give sponsors
+  the visibility they were promised.\nCTA: Thank our sponsor
+ s.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:In 2 hours: Post "Sponsors" goes live at 20:00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eunoia-2026-12-08-13@skillntell
+DTSTAMP:20261125T165659Z
+DTSTART:20261208T120000Z
+DURATION:PT15M
+SUMMARY:EUNOIA · Post: Media partners
+DESCRIPTION:Publish at 13:00 (Algeria).\nGoal: Thank partner
+ s and borrow their reach.\nCTA: Follow our media partners.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:In 2 hours: Post "Media partners" goes live at 1
+ 3:00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eunoia-2026-12-08-14@skillntell
+DTSTAMP:20261125T165659Z
+DTSTART:20261208T193000Z
+DURATION:PT15M
+SUMMARY:EUNOIA · Post: Village map
+DESCRIPTION:Publish at 20:30 (Algeria).\nGoal: Help visitors
+  find their way around the village.\nCTA: Save it for the 1
+ 2th.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:In 2 hours: Post "Village map" goes live at 20:3
+ 0
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eunoia-2026-12-09-15@skillntell
+DTSTAMP:20261125T165659Z
+DTSTART:20261209T120000Z
+DURATION:PT15M
+SUMMARY:EUNOIA · Post: Registrations are closed
+DESCRIPTION:Publish at 13:00 (Algeria).\nGoal: Close the cal
+ l and build anticipation.\nCTA: See you on 12.12.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:In 2 hours: Post "Registrations are closed" goes
+  live at 13:00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eunoia-2026-12-09-16@skillntell
+DTSTAMP:20261125T165659Z
+DTSTART:20261209T193000Z
+DURATION:PT15M
+SUMMARY:EUNOIA · Post: Check your acceptance email
+DESCRIPTION:Publish at 20:30 (Algeria).\nGoal: Make sure eve
+ ry accepted participant confirms.\nCTA: Check your inbox an
+ d spam today.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:In 2 hours: Post "Check your acceptance email" g
+ oes live at 20:30
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eunoia-2026-12-10-17@skillntell
+DTSTAMP:20261125T165659Z
+DTSTART:20261210T190000Z
+DURATION:PT15M
+SUMMARY:EUNOIA · Post: Agenda
+DESCRIPTION:Publish at 20:00 (Algeria).\nGoal: Give visitors
+  the programme of the day\, hour by hour.\nCTA: Save it and
+  plan your 12.12.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:In 2 hours: Post "Agenda" goes live at 20:00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eunoia-event-day@skillntell
+DTSTAMP:20261125T165659Z
+DTSTART;VALUE=DATE:20261212
+SUMMARY:EUNOIA · Event day (live stories all day)
+END:VEVENT
+END:VCALENDAR

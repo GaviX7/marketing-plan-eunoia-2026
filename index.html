@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Marketing plan EUNOIA 2026 by the Skill&Tell club: 24 Nov to 12 Dec 2026 rollout, posting times for Algeria and 2-hour reminders.">
+<meta property="og:title" content="Marketing Plan EUNOIA 2026">
+<meta property="og:description" content="Marketing plan EUNOIA 2026 by the Skill&Tell club: 24 Nov to 12 Dec 2026 rollout, posting times for Algeria and 2-hour reminders.">
+<meta property="og:type" content="website">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Marketing Plan EUNOIA 2026</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Covered+By+Your+Grace&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: poster hero → broadcast strip (19 days, animated playhead) with a live detail card → phase-grouped table. */
+:root {
+  --bg: #FFF6F9;        /* blush, from the identity sheet */
+  --surface: #FFFFFF;
+  --fg: #170A10;
+  --muted: #6E5A64;
+  --line: #F1D6E2;
+  --pink: #F6BBD6;
+  --cyan: #49BDD3;
+  --berry: #C32560;
+  --ink: #000000;
+  --mist: #E6F4F8;
+  --on-berry: #FFFFFF;
+  --f-display: "Bebas Neue", "Arial Narrow", Impact, sans-serif;
+  --f-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-hand: "Covered By Your Grace", "Segoe Print", "Comic Sans MS", cursive;
+  --col: 66px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0B0709; --surface: #170F13; --fg: #FBEFF4; --muted: #BBA4AF; --line: #33222A;
+  --pink: #F6BBD6; --cyan: #5BCBE0; --berry: #E04A82; --ink: #000000; --mist: #0F2329; --on-berry: #FFFFFF;
+  color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0B0709; --surface: #170F13; --fg: #FBEFF4; --muted: #BBA4AF; --line: #33222A;
+  --pink: #F6BBD6; --cyan: #5BCBE0; --berry: #E04A82; --ink: #000000; --mist: #0F2329; --on-berry: #FFFFFF;
+  color-scheme: dark }
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--f-body); font-size: 15px; line-height: 1.55; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--f-display); font-weight: 400; letter-spacing: .02em; line-height: .95; margin: 0; text-wrap: balance; }
+.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--berry); }
+.hand { font-family: var(--f-hand); color: var(--berry); }
+button { font: inherit; }
+:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; border-radius: 6px; }
+
+/* ---------- top bar, echoing the identity sheet ---------- */
+.topbar { background: var(--ink); color: #fff; border-bottom: 4px solid var(--berry); margin-top: calc(-1 * env(safe-area-inset-top, 0px)); padding-top: env(safe-area-inset-top, 0px); }
+.topbar .wrap { display: flex; justify-content: space-between; gap: 12px; padding-block: 10px; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; }
+.topbar span:last-child { color: var(--pink); }
+
+/* ---------- hero ---------- */
+.hero { padding-block: 48px 28px; position: relative; overflow: hidden; }
+.hero::before { content: ""; position: absolute; right: -140px; top: -160px; width: 460px; height: 460px; border-radius: 50%; background: var(--pink); opacity: .35; }
+.hero::after { content: ""; position: absolute; left: -180px; bottom: -260px; width: 420px; height: 420px; border-radius: 50%; background: var(--cyan); opacity: .16; }
+.hero .wrap { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 32px; align-items: end; }
+.mark { position: relative; padding: 10px 0 6px; }
+.mark h1 { font-size: clamp(88px, 17vw, 196px); color: var(--berry); position: relative; z-index: 1; }
+.mark svg { position: absolute; inset: -6% -4% -10% -6%; width: 112%; height: 120%; overflow: visible; pointer-events: none; }
+.orbit { fill: none; stroke: var(--cyan); stroke-width: 3; stroke-linecap: round; stroke-dasharray: 620 1200; animation: orbit 9s linear infinite; }
+.spark { fill: var(--cyan); transform-box: fill-box; transform-origin: center; animation: twinkle 2.6s ease-in-out infinite; }
+.spark.p { fill: var(--pink); animation-delay: -1.2s; }
+.spark.b { fill: var(--berry); animation-delay: -.6s; }
+@keyframes orbit { to { stroke-dashoffset: -1820; } }
+@keyframes twinkle { 0%,100% { transform: scale(1) rotate(0deg); } 50% { transform: scale(.55) rotate(45deg); } }
+.mark .hand { font-size: clamp(22px, 3vw, 30px); display: block; transform: rotate(-4deg); margin-top: 4px; }
+.hero-side { display: grid; gap: 18px; padding-bottom: 14px; }
+.hero-side p { margin: 0; max-width: 44ch; color: var(--muted); }
+.hero-side p strong { color: var(--fg); font-weight: 600; }
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 12px 12px 10px; }
+.stat b { display: block; font-family: var(--f-display); font-size: 40px; font-weight: 400; line-height: 1; font-variant-numeric: tabular-nums; }
+.stat span { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.stat.count { background: var(--berry); border-color: var(--berry); color: var(--on-berry); }
+.stat.count span { color: var(--on-berry); opacity: .85; }
+
+/* ---------- section heads ---------- */
+section { padding-block: 28px; }
+.sec-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 24px; margin-bottom: 18px; }
+.sec-head h2 { font-size: clamp(40px, 6vw, 60px); }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 13px; color: var(--muted); align-items: center; }
+.legend i { display: inline-block; vertical-align: -3px; margin-right: 6px; }
+.lg-post { width: 16px; height: 16px; border-radius: 4px; background: var(--pink); border: 2px solid var(--berry); }
+.lg-reel { width: 11px; height: 18px; border-radius: 4px; background: var(--cyan); }
+.lg-today { width: 2px; height: 16px; background: var(--fg); }
+
+/* ---------- strip ---------- */
+.board { background: var(--surface); border: 1px solid var(--line); border-radius: 24px; overflow: hidden; }
+.controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; padding: 14px 18px; border-bottom: 1px solid var(--line); }
+.btns { display: flex; gap: 8px; }
+.btn { border: 1.5px solid var(--fg); background: transparent; color: var(--fg); border-radius: 999px; padding: 7px 16px; font-size: 13px; font-weight: 600; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; }
+.btn:hover { background: var(--fg); color: var(--bg); }
+.btn.primary { background: var(--berry); border-color: var(--berry); color: var(--on-berry); }
+.btn.primary:hover { filter: brightness(1.08); background: var(--berry); color: var(--on-berry); }
+.clock { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.clock b { color: var(--fg); font-weight: 600; }
+
+.strip-scroll { overflow-x: auto; scrollbar-width: thin; }
+.strip { position: relative; width: calc(var(--col) * 19 + 36px); padding: 16px 18px 18px; }
+.grid { display: grid; grid-template-columns: repeat(19, var(--col)); }
+.phase-band { margin: 0 3px; border-radius: 10px; padding: 6px 10px; font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.phase-band.tease { background: color-mix(in srgb, var(--pink) 45%, transparent); color: var(--fg); }
+.phase-band.launch { background: color-mix(in srgb, var(--cyan) 30%, transparent); color: var(--fg); }
+.phase-band.lineup { background: color-mix(in srgb, var(--berry) 18%, transparent); color: var(--fg); }
+.phase-band.event { background: var(--berry); color: var(--on-berry); text-align: center; padding-inline: 2px; }
+.days { margin-top: 12px; }
+.day { text-align: center; font-variant-numeric: tabular-nums; padding: 4px 0; border-radius: 10px; }
+.day small { display: block; font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.day b { font-family: var(--f-display); font-weight: 400; font-size: 26px; line-height: 1.05; display: block; }
+.day.month-start small { color: var(--berry); }
+.day.is-active { background: var(--mist); }
+.lane { position: relative; height: 244px; margin-top: 6px; }
+.mk + .mk { margin-top: 14px; }
+.track, .fill { position: absolute; left: 0; top: 52px; height: 4px; border-radius: 4px; }
+.track { right: 0; background: var(--line); }
+.fill { width: 0; background: linear-gradient(90deg, var(--pink), var(--cyan)); }
+.slot { position: relative; display: flex; flex-direction: column; align-items: center; }
+.mk { position: relative; margin-top: 22px; border: 0; padding: 0; cursor: pointer; background: none; color: var(--fg); display: flex; flex-direction: column; align-items: center; gap: 8px; animation: pop .5s cubic-bezier(.2,.9,.3,1.3) both; animation-delay: calc(var(--i) * 45ms + 250ms); }
+@keyframes pop { from { transform: translateY(10px) scale(.6); opacity: .4; } }
+.mk .shape { display: grid; place-items: center; transition: transform .25s cubic-bezier(.2,.9,.3,1.3), box-shadow .25s; }
+.mk.post .shape { width: 34px; height: 34px; margin-top: 3px; border-radius: 9px; background: var(--pink); border: 2.5px solid var(--berry); }
+.mk.reel .shape { width: 26px; height: 40px; border-radius: 8px; background: var(--cyan); }
+.mk.reel .shape::after { content: ""; border-left: 9px solid #fff; border-top: 6px solid transparent; border-bottom: 6px solid transparent; margin-left: 2px; }
+.mk .lbl { font-size: 10.5px; line-height: 1.2; text-align: center; width: calc(var(--col) - 4px); color: var(--muted); font-weight: 500; }
+.mk:hover .shape { transform: translateY(-3px); }
+.mk.done .shape { box-shadow: 0 0 0 4px color-mix(in srgb, var(--cyan) 22%, transparent); }
+.mk.on .shape { transform: scale(1.22); box-shadow: 0 0 0 6px color-mix(in srgb, var(--berry) 25%, transparent); }
+.mk.on .lbl { color: var(--fg); font-weight: 700; }
+.rest { margin-top: 44px; font-family: var(--f-hand); font-size: 15px; color: var(--muted); text-align: center; line-height: 1.1; }
+.ev { margin-top: 18px; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.ev svg { width: 46px; height: 46px; animation: twinkle 2.4s ease-in-out infinite; }
+.ev svg path { fill: var(--berry); }
+.ev span { font-family: var(--f-display); font-size: 18px; color: var(--berry); letter-spacing: .04em; }
+.today { position: absolute; top: -6px; bottom: 0; width: 0; border-left: 2px dashed var(--fg); opacity: .55; pointer-events: none; }
+.today span { position: absolute; bottom: -2px; left: 4px; font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; white-space: nowrap; }
+.playhead { position: absolute; top: 0; bottom: 0; left: 0; width: 0; pointer-events: none; will-change: transform; }
+.playhead::before { content: ""; position: absolute; top: 0; bottom: 0; left: -1px; width: 2px; background: var(--berry); }
+.playhead svg { position: absolute; top: 40px; left: -14px; width: 28px; height: 28px; }
+.playhead svg path { fill: var(--berry); }
+
+/* ---------- detail card ---------- */
+.detail { display: grid; grid-template-columns: 170px minmax(0, 1fr); gap: 0; border-top: 1px solid var(--line); }
+.d-date { background: var(--ink); color: #fff; padding: 20px 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 10px; }
+.d-date b { font-family: var(--f-display); font-weight: 400; font-size: 64px; line-height: .9; display: block; }
+.d-date small { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--pink); }
+.d-date .idx { font-size: 12px; color: #fff; opacity: .7; font-variant-numeric: tabular-nums; }
+.d-body { padding: 20px 22px; display: grid; gap: 12px; min-width: 0; }
+.d-body.swap { animation: swap .38s ease-out; }
+@keyframes swap { from { transform: translateY(8px); opacity: .25; } }
+.d-top { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.d-top h3 { font-size: clamp(32px, 4.4vw, 44px); }
+.chip { display: inline-flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; padding: 4px 10px; border-radius: 999px; }
+.chip.post { background: var(--pink); color: #5A0F2C; }
+.chip.reel { background: var(--cyan); color: #06323B; }
+.chip.phase { background: transparent; border: 1px solid var(--line); color: var(--muted); }
+.d-cols { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr) minmax(0, 1fr); gap: 18px; }
+.d-time b { font-family: var(--f-display); font-weight: 400; font-size: 30px; line-height: 1; margin-right: 6px; font-variant-numeric: tabular-nums; }
+.d-time span { font-size: 12px; color: var(--muted); white-space: nowrap; }
+.mk .lbl .tm { display: block; margin-top: 2px; font-size: 10px; font-weight: 700; color: var(--berry); font-variant-numeric: tabular-nums; }
+td.time { white-space: nowrap; font-variant-numeric: tabular-nums; }
+td.time b { font-family: var(--f-display); font-weight: 400; font-size: 22px; display: block; line-height: 1; }
+td.time small { font-size: 11px; color: var(--muted); }
+
+/* ---------- next publication bar + 2-hour alert ---------- */
+.nextwrap { padding-block: 0 4px; }
+.next { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 16px; align-items: center; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 14px 20px; color: var(--fg); }
+.next .bell { width: 40px; height: 40px; color: var(--berry); }
+.next .bell path { fill: currentColor; }
+.next .k { font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--berry); display: block; }
+.next .t { font-family: var(--f-display); font-weight: 400; font-size: clamp(24px, 3.4vw, 32px); line-height: 1.05; display: block; }
+.next .m { font-size: 13px; color: var(--muted); display: block; }
+.next .left { text-align: right; }
+.next .left b { font-family: var(--f-display); font-weight: 400; font-size: clamp(30px, 4.4vw, 44px); line-height: 1; display: block; font-variant-numeric: tabular-nums; }
+.next .left span { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.next[data-state="alert"], .next[data-state="live"] { background: var(--berry); border-color: var(--berry); color: var(--on-berry); animation: ring 1.8s ease-in-out infinite; }
+.next[data-state="alert"] .k, .next[data-state="alert"] .m, .next[data-state="alert"] .left span, .next[data-state="alert"] .bell,
+.next[data-state="live"] .k, .next[data-state="live"] .m, .next[data-state="live"] .left span, .next[data-state="live"] .bell { color: var(--on-berry); }
+.next[data-state="alert"] .bell { animation: shake 1.8s ease-in-out infinite; transform-origin: 50% 10%; }
+@keyframes ring { 50% { box-shadow: 0 0 0 8px color-mix(in srgb, var(--berry) 25%, transparent); } }
+@keyframes shake { 0%, 60%, 100% { transform: rotate(0); } 10%, 30%, 50% { transform: rotate(-12deg); } 20%, 40% { transform: rotate(12deg); } }
+.n-help { font-size: 13px; color: var(--muted); margin: 8px 4px 0; }
+
+/* ---------- best times ---------- */
+.times { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.tcard { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 16px; display: grid; gap: 4px; align-content: start; }
+.tcard b { font-family: var(--f-display); font-weight: 400; font-size: 34px; line-height: 1; font-variant-numeric: tabular-nums; }
+.tcard .k { font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--berry); }
+.tcard p { margin: 4px 0 0; font-size: 14px; color: var(--muted); }
+.tcard.peak { background: var(--ink); border-color: var(--ink); color: #fff; }
+.tcard.peak .k { color: var(--pink); }
+.tcard.peak p { color: #E9DCE2; }
+.tcard.avoid b { color: var(--muted); text-decoration: line-through; text-decoration-thickness: 2px; }
+.hours { margin-top: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 14px 16px 10px; }
+.hours .bar { display: grid; grid-template-columns: repeat(24, minmax(0, 1fr)); gap: 3px; height: 54px; align-items: end; }
+.hours .bar i { display: block; border-radius: 4px 4px 2px 2px; background: color-mix(in srgb, var(--cyan) 55%, transparent); }
+.hours .bar i.hot { background: var(--berry); }
+.hours .bar i.warm { background: var(--pink); }
+.hours .ax { display: grid; grid-template-columns: repeat(24, minmax(0, 1fr)); gap: 3px; font-size: 10px; color: var(--muted); text-align: center; margin-top: 4px; font-variant-numeric: tabular-nums; }
+.hours .cap { font-size: 12px; color: var(--muted); margin-top: 6px; }
+.d-cols h4 { margin: 0 0 4px; font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--berry); }
+.d-cols p { margin: 0; font-size: 14px; }
+
+/* ---------- table ---------- */
+.filters { display: flex; gap: 6px; flex-wrap: wrap; }
+.filters button { border: 1.5px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 999px; padding: 6px 14px; font-size: 13px; font-weight: 600; cursor: pointer; }
+.filters button[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.table-scroll { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; }
+table { width: 100%; min-width: 760px; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; vertical-align: top; padding: 12px 14px; }
+thead th { font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--line); background: var(--surface); }
+tbody tr.item td { border-bottom: 1px solid var(--line); }
+tbody tr.item:hover td { background: color-mix(in srgb, var(--pink) 12%, transparent); }
+td.date { white-space: nowrap; font-variant-numeric: tabular-nums; }
+td.date b { font-family: var(--f-display); font-size: 24px; font-weight: 400; display: block; line-height: 1; }
+td.date small { color: var(--muted); font-size: 12px; }
+td.title { font-weight: 700; min-width: 150px; }
+td.brief { color: var(--muted); max-width: 40ch; }
+td.cta { font-family: var(--f-hand); color: var(--berry); font-size: 17px; line-height: 1.25; min-width: 150px; }
+tr.phase-row td { background: var(--mist); padding: 10px 14px; border-bottom: 1px solid var(--line); }
+tr.phase-row h3 { font-size: 26px; display: inline; margin-right: 10px; }
+tr.phase-row span { color: var(--muted); font-size: 13px; }
+tr.phase-row .n { font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--berry); margin-right: 10px; }
+tr.note-row td { color: var(--muted); font-size: 13px; font-style: italic; border-bottom: 1px solid var(--line); }
+tr.event-row td { background: var(--berry); color: var(--on-berry); }
+tr.event-row b { font-family: var(--f-display); font-weight: 400; font-size: 28px; letter-spacing: .03em; }
+.footnote { color: var(--muted); font-size: 13px; margin-top: 12px; }
+footer { margin-top: 24px; background: var(--ink); color: #fff; }
+footer .wrap { padding-block: 14px; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+
+@media (max-width: 860px) {
+  .hero .wrap { grid-template-columns: minmax(0, 1fr); }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .detail { grid-template-columns: minmax(0, 1fr); }
+  .d-date { flex-direction: row; align-items: end; }
+  .d-cols { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .times { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .next { grid-template-columns: auto minmax(0, 1fr); }
+  .next .left { grid-column: 1 / -1; text-align: left; display: flex; align-items: baseline; gap: 8px; }
+  .hours .ax span:nth-child(odd) { visibility: hidden; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+</style>
+</head>
+<body>
+
+
+<div class="topbar"><div class="wrap"><span>Skill&amp;Tell · Marketing plan EUNOIA 2026</span><span>24 Nov → 12 Dec 2026</span></div></div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="mark">
+      <svg viewBox="0 0 600 260" aria-hidden="true">
+        <ellipse class="orbit" cx="300" cy="140" rx="290" ry="78" transform="rotate(-9 300 140)"/>
+        <path class="spark" d="M520 22 l7 22 22 7 -22 7 -7 22 -7 -22 -22 -7 22 -7z"/>
+        <path class="spark p" d="M86 200 l5 15 15 5 -15 5 -5 15 -5 -15 -15 -5 15 -5z"/>
+        <path class="spark b" d="M470 70 l4 11 11 4 -11 4 -4 11 -4 -11 -11 -4 11 -4z"/>
+      </svg>
+      <p class="eyebrow">Instagram &amp; TikTok rollout</p>
+      <h1>EUNOIA</h1>
+      <span class="hand">make it shine ✦ 12.12.2026</span>
+    </div>
+    <div class="hero-side">
+      <p>Three weeks of content that take EUNOIA from a <strong>silent teaser</strong> to a <strong>full line-up</strong>: mystery first, then the reveal and registrations, then everything visitors need for the day.</p>
+      <div class="stats">
+        <div class="stat"><b id="sTotal">18</b><span>Publications</span></div>
+        <div class="stat"><b id="sPosts">13</b><span>Posts</span></div>
+        <div class="stat"><b id="sReels">5</b><span>Reels</span></div>
+        <div class="stat count"><b id="sDays">17</b><span id="sDaysLbl">Days to go</span></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="nextwrap" aria-live="polite">
+    <div class="wrap">
+      <div class="next" id="next" data-state="soon">
+        <svg class="bell" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22a2.5 2.5 0 0 0 2.45-2h-4.9A2.5 2.5 0 0 0 12 22Zm7-6V11a7 7 0 0 0-5.5-6.84V3.5a1.5 1.5 0 0 0-3 0v.66A7 7 0 0 0 5 11v5l-2 2v1h18v-1l-2-2Z"/></svg>
+        <div><span class="k" id="nK">Next publication</span><span class="t" id="nT">Loading the schedule…</span><span class="m" id="nM"></span></div>
+        <div class="left"><b id="nL">–</b><span id="nLL">to go</span></div>
+      </div>
+      <p class="n-help">Every publication has a reminder <strong>2 hours before</strong> it goes live. While this page is open, the bar turns berry and rings when that window opens. For alerts on your phone, use the <a href="EUNOIA_Media_Plan.ics" download>EUNOIA calendar file (.ics)</a>, which has the same 2-hour alarm on every post.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <div><p class="eyebrow">Animated timeline</p><h2>Day by day</h2></div>
+        <div class="legend"><span><i class="lg-post"></i>Post</span><span><i class="lg-reel"></i>Reel</span><span><i class="lg-today"></i>Today</span></div>
+      </div>
+      <div class="board">
+        <div class="controls">
+          <div class="btns">
+            <button class="btn primary" id="play" type="button"><span id="playIcon">❚❚</span><span id="playTxt">Pause</span></button>
+            <button class="btn" id="replay" type="button">↺ Replay</button>
+            <button class="btn" id="prev" type="button" aria-label="Previous publication">←</button>
+            <button class="btn" id="next" type="button" aria-label="Next publication">→</button>
+          </div>
+          <div class="clock" id="clock">Playhead: <b>Tue 24 Nov</b></div>
+        </div>
+        <div class="strip-scroll" id="scroller">
+          <div class="strip" id="strip">
+            <div class="grid" id="phases"></div>
+            <div class="grid days" id="days"></div>
+            <div class="lane">
+              <div class="track"></div><div class="fill" id="fill"></div>
+              <div class="grid" id="lane" style="position:relative"></div>
+            </div>
+            <div class="today" id="today"><span>Today</span></div>
+            <div class="playhead" id="playhead"><svg viewBox="0 0 28 28" aria-hidden="true"><path d="M14 0 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4z"/></svg></div>
+          </div>
+        </div>
+        <div class="detail" aria-live="polite">
+          <div class="d-date"><div><small id="dWeek">Tuesday</small><b id="dDay">24 Nov</b></div><span class="idx" id="dIdx">1 / 17</span></div>
+          <div class="d-body" id="dBody">
+            <div class="d-top"><span class="chip post" id="dFormat">Post</span><h3 id="dTitle">Teaser</h3><span class="chip phase" id="dPhase">Phase 1 · Teasing</span></div>
+            <div class="d-cols">
+              <div><h4>Goal</h4><p id="dGoal"></p></div>
+              <div><h4>Post at · Reminder</h4><p id="dTime" class="d-time"></p></div>
+              <div><h4>Call to action</h4><p id="dCta" class="hand" style="font-size:19px;line-height:1.25"></p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <div><p class="eyebrow">Algeria · UTC+1</p><h2>Best times to post</h2></div>
+      </div>
+      <div class="times">
+        <div class="tcard peak"><span class="k">Main peak</span><b>19:00 – 22:00</b><p>Classes and work are over and people are scrolling at home. Most posts go out here.</p></div>
+        <div class="tcard"><span class="k">Reels</span><b>21:00</b><p>Late evening gives reels the longest watch sessions, so all 5 reels go out at 21:00.</p></div>
+        <div class="tcard"><span class="k">Lunch break</span><b>13:00</b><p>Second window for double days: first post at lunch, second at 20:30.</p></div>
+        <div class="tcard avoid"><span class="k">Avoid</span><b>Fri 12 – 14:30</b><p>Friday prayer. Fri and Sat are the weekend, so they are posted in the evening.</p></div>
+      </div>
+      <div class="hours" aria-label="Typical Instagram activity in Algeria by hour">
+        <div class="bar" id="hoursBar"></div>
+        <div class="ax" id="hoursAx"></div>
+        <p class="cap">Typical activity by hour, Algeria time. Berry = peak, pink = good, cyan = low. Based on general patterns for Algerian audiences, not on your account: after week 1, compare with Instagram Insights › Most active times and move the slots if your followers differ.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <div><p class="eyebrow">Details</p><h2>The full plan</h2></div>
+        <div class="filters" role="group" aria-label="Filter by format">
+          <button type="button" id="fAll" data-f="all" aria-pressed="true">All</button>
+          <button type="button" id="fPost" data-f="post" aria-pressed="false">Posts</button>
+          <button type="button" id="fReel" data-f="reel" aria-pressed="false">Reels</button>
+        </div>
+      </div>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Date</th><th>Time (DZ)</th><th>Format</th><th>Content</th><th>Goal</th><th>Call to action</th></tr></thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+      <p class="footnote">Two posts go out on Tuesday 8 and Wednesday 9 December. Friday 11 has no feed post, which leaves room for stories and last reminders.</p>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap"><span>EUNOIA / Media plan</span><span><a href="EUNOIA_Media_Plan.pdf" style="color:inherit">Download the PDF</a> · Skill&amp;Tell club</span></div></footer>
+
+<script src="data.js"></script>
+<script>
+(function () {
+  const P = window.EUNOIA_PLAN;
+  if (!P) return;
+  const DAY = 86400000;
+  const parse = s => { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); };
+  const start = parse(P.start), event = parse(P.event);
+  const N = Math.round((event - start) / DAY) + 1; // 19 columns, event included
+  const idx = s => Math.round((parse(s) - start) / DAY);
+  const WD = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  const WDL = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const MO = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const dateAt = i => new Date(start.getFullYear(), start.getMonth(), start.getDate() + i);
+  const phaseOf = id => P.phases.find(p => p.id === id);
+  const items = P.items.map((it, k) => Object.assign({ k, d: idx(it.date) }, it));
+  // when two publications share a day, the playhead reaches them one after the other
+  items.forEach(it => { const same = items.filter(x => x.d === it.d); it.th = it.d + 0.25 + same.indexOf(it) * 0.4; });
+  const $ = id => document.getElementById(id);
+  const col = () => parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--col")) || 66;
+  const RH = P.reminderHours || 2, OFF = P.utcOffset ?? 1;
+  const two = n => String(n).padStart(2, "0");
+  const rem = t => { const [h, m] = t.split(":").map(Number); const x = (h * 60 + m - RH * 60 + 1440) % 1440; return `${two(Math.floor(x / 60))}:${two(x % 60)}`; };
+  const at = it => { const [y, m, d] = it.date.split("-").map(Number); const [h, mi] = it.time.split(":").map(Number); return Date.UTC(y, m - 1, d, h - OFF, mi); };
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  /* stats */
+  const nPosts = items.filter(i => i.format === "post").length;
+  $("sTotal").textContent = items.length;
+  $("sPosts").textContent = nPosts;
+  $("sReels").textContent = items.length - nPosts;
+  const now = new Date(); const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const left = Math.round((event - today) / DAY);
+  if (left > 0) { $("sDays").textContent = left; $("sDaysLbl").textContent = left === 1 ? "Day to go" : "Days to go"; }
+  else if (left === 0) { $("sDays").textContent = "★"; $("sDaysLbl").textContent = "It's today"; }
+  else { $("sDays").textContent = "✓"; $("sDaysLbl").textContent = "Event done"; }
+
+  /* phase bands */
+  let ph = "";
+  P.phases.forEach(p => {
+    const ds = items.filter(i => i.phase === p.id).map(i => i.d);
+    const a = Math.min(...ds), b = Math.max(...ds);
+    ph += `<div class="phase-band ${p.id}" style="grid-column:${a + 1} / ${b + 2}" title="${esc(p.note)}">${esc(p.n)} · ${esc(p.name)}</div>`;
+  });
+  ph += `<div class="phase-band event" style="grid-column:${N} / ${N + 1}">Day</div>`;
+  $("phases").innerHTML = ph;
+
+  /* day header */
+  let dh = "";
+  for (let i = 0; i < N; i++) {
+    const d = dateAt(i);
+    const ms = i === 0 || d.getDate() === 1;
+    dh += `<div class="day${ms ? " month-start" : ""}" data-d="${i}"><small>${WD[d.getDay()]}${ms ? " · " + MO[d.getMonth()] : ""}</small><b>${d.getDate()}</b></div>`;
+  }
+  $("days").innerHTML = dh;
+
+  /* lane */
+  let ln = "";
+  for (let i = 0; i < N; i++) {
+    const its = items.filter(x => x.d === i);
+    ln += `<div class="slot">`;
+    if (its.length) its.forEach(it => ln += `<button type="button" class="mk ${it.format}" data-k="${it.k}" style="--i:${it.k}" aria-label="${esc(it.title)}, ${it.format}"><span class="shape"></span><span class="lbl">${esc(it.title)}<small class="tm">${it.time}</small></span></button>`);
+    else if (P.rest && idx(P.rest.date) === i) ln += `<div class="rest" title="${esc(P.rest.note)}">stories<br>only</div>`;
+    else if (i === N - 1) ln += `<div class="ev"><svg viewBox="0 0 28 28" aria-hidden="true"><path d="M14 0 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4z"/></svg><span>EUNOIA</span></div>`;
+    ln += `</div>`;
+  }
+  $("lane").innerHTML = ln;
+  const markers = [...document.querySelectorAll(".mk")];
+  const dayCells = [...document.querySelectorAll(".day")];
+
+  /* today line */
+  const ti = Math.round((today - start) / DAY);
+  if (ti >= 0 && ti < N) $("today").style.left = `calc(18px + ${(ti + 0.5)} * var(--col))`; else $("today").hidden = true;
+
+  /* detail card */
+  let shown = -1;
+  function show(k) {
+    if (k === shown) return;
+    shown = k;
+    const it = items[k]; const d = parse(it.date); const p = phaseOf(it.phase);
+    $("dWeek").textContent = WDL[d.getDay()];
+    $("dDay").textContent = `${d.getDate()} ${MO[d.getMonth()]}`;
+    $("dIdx").textContent = `${k + 1} / ${items.length}`;
+    const f = $("dFormat"); f.className = `chip ${it.format}`; f.textContent = it.format === "reel" ? "▶ Reel" : "Post";
+    $("dTitle").textContent = it.title;
+    $("dPhase").textContent = `${p.n} · ${p.name}`;
+    $("dGoal").textContent = it.goal;
+    $("dTime").innerHTML = `<b>${it.time}</b> <span>reminder ${rem(it.time)}</span>`;
+    $("dCta").textContent = it.cta;
+    const body = $("dBody"); body.classList.remove("swap"); void body.offsetWidth; body.classList.add("swap");
+    markers.forEach(m => m.classList.toggle("on", +m.dataset.k === k));
+    dayCells.forEach(c => c.classList.toggle("is-active", +c.dataset.d === it.d));
+  }
+
+  /* playhead */
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const PER_DAY = 900; // ms per calendar day
+  let pos = 0, playing = !reduce, last = 0;
+  const scroller = $("scroller");
+  function render(followScroll) {
+    const c = col(); const x = pos * c;
+    $("playhead").style.transform = `translateX(${18 + x}px)`;
+    $("fill").style.width = `${Math.max(0, x)}px`;
+    let cur = 0;
+    items.forEach(it => { if (pos >= it.th) cur = it.k; });
+    markers.forEach(m => m.classList.toggle("done", items[+m.dataset.k].th + 0.15 <= pos));
+    show(cur);
+    const dd = dateAt(Math.min(N - 1, Math.floor(pos)));
+    $("clock").innerHTML = pos >= N - 0.5 ? "Playhead: <b>Sat 12 Dec · EUNOIA day</b>" : `Playhead: <b>${WD[dd.getDay()]} ${dd.getDate()} ${MO[dd.getMonth()]}</b>`;
+    if (followScroll && scroller.scrollWidth > scroller.clientWidth) scroller.scrollLeft = 18 + x - scroller.clientWidth / 2;
+  }
+  let hold = 0; // pause on the event day, then loop back to 24 Nov
+  function setPlaying(v) {
+    playing = v;
+    $("playIcon").textContent = v ? "❚❚" : "▶";
+    $("playTxt").textContent = v ? "Pause" : "Play";
+    if (v) { last = 0; hold = 0; requestAnimationFrame(tick); }
+  }
+  function tick(t) {
+    if (!playing) return;
+    if (hold) {
+      if (t < hold) { requestAnimationFrame(tick); return; }
+      hold = 0; pos = 0; last = t;
+    }
+    if (last) pos += (t - last) / PER_DAY;
+    last = t;
+    if (pos >= N - 0.5) { pos = N - 0.5; hold = t + 2600; }
+    render(true);
+    requestAnimationFrame(tick);
+  }
+  function jumpTo(k) { setPlaying(false); pos = items[k].th + 0.05; render(true); }
+
+  $("play").addEventListener("click", () => { if (!playing && pos >= N - 0.5) pos = 0; setPlaying(!playing); });
+  $("replay").addEventListener("click", () => { pos = 0; render(true); setPlaying(true); });
+  $("prev").addEventListener("click", () => jumpTo(Math.max(0, shown - 1)));
+  $("next").addEventListener("click", () => jumpTo(Math.min(items.length - 1, shown + 1)));
+  markers.forEach(m => m.addEventListener("click", () => jumpTo(+m.dataset.k)));
+  addEventListener("resize", () => render(false));
+
+  if (reduce) { pos = items[0].th + 0.05; setPlaying(false); }
+  render(false);
+  if (playing) setTimeout(() => requestAnimationFrame(tick), 900);
+
+  /* table */
+  function fmtDate(s) { const d = parse(s); return `<b>${d.getDate()} ${MO[d.getMonth()]}</b><small>${WDL[d.getDay()]}</small>`; }
+  function buildTable(filter) {
+    let h = "";
+    P.phases.forEach(p => {
+      const rows = items.filter(i => i.phase === p.id && (filter === "all" || i.format === filter));
+      h += `<tr class="phase-row"><td colspan="6"><span class="n">${esc(p.n)}</span><h3>${esc(p.name)}</h3><span>${esc(p.range)} · ${esc(p.note)}</span></td></tr>`;
+      rows.forEach(it => {
+        h += `<tr class="item"><td class="date">${fmtDate(it.date)}</td><td class="time"><b>${it.time}</b><small>⏰ ${rem(it.time)}</small></td><td><span class="chip ${it.format}">${it.format === "reel" ? "▶ Reel" : "Post"}</span></td><td class="title">${esc(it.title)}</td><td>${esc(it.goal)}</td><td class="cta">${esc(it.cta)}</td></tr>`;
+      });
+      if (p.id === "tease" && P.rest && filter === "all") h += `<tr class="note-row"><td class="date">${fmtDate(P.rest.date)}</td><td colspan="5">${esc(P.rest.note)}</td></tr>`;
+      if (!rows.length) h += `<tr class="note-row"><td colspan="6">No ${filter}s in this phase.</td></tr>`;
+    });
+    h += `<tr class="event-row"><td class="date">${fmtDate(P.event)}</td><td colspan="5"><b>EUNOIA · event day</b> — live stories all day, behind-the-scenes reel for the recap.</td></tr>`;
+    $("tbody").innerHTML = h;
+  }
+  document.querySelectorAll(".filters button").forEach(b => b.addEventListener("click", () => {
+    document.querySelectorAll(".filters button").forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
+    buildTable(b.dataset.f);
+  }));
+  buildTable("all");
+
+  /* typical activity by hour (relative, 0–10) */
+  const ACT = [3, 2, 1, 1, 0, 0, 1, 2, 3, 3, 4, 4, 6, 6, 5, 4, 4, 5, 7, 9, 10, 10, 8, 5];
+  $("hoursBar").innerHTML = ACT.map((v, h) => `<i class="${v >= 9 ? "hot" : v >= 6 ? "warm" : ""}" style="height:${Math.max(6, v * 10)}%" title="${two(h)}:00"></i>`).join("");
+  $("hoursAx").innerHTML = ACT.map((_, h) => `<span>${h}</span>`).join("");
+
+  /* next publication + 2-hour reminder */
+  const fmtLeft = ms => { const m = Math.max(0, Math.round(ms / 60000)); const d = Math.floor(m / 1440), h = Math.floor((m % 1440) / 60), mm = m % 60; return d ? `${d}d ${h}h` : h ? `${h}h ${two(mm)}m` : `${mm}m`; };
+  const baseTitle = document.title;
+  function updateNext() {
+    const now = Date.now();
+    const nx = items.find(it => at(it) > now - 30 * 60000);
+    const box = $("next");
+    if (!nx) {
+      box.dataset.state = "done";
+      $("nK").textContent = "All publications are out";
+      $("nT").textContent = now < event.getTime() + DAY ? "See you on 12.12 ✦" : "EUNOIA is done ✦";
+      $("nM").textContent = ""; $("nL").textContent = "✓"; $("nLL").textContent = "";
+      document.title = baseTitle; return;
+    }
+    const d = parse(nx.date), diff = at(nx) - now;
+    const when = `${WDL[d.getDay()]} ${d.getDate()} ${MO[d.getMonth()]} at ${nx.time}`;
+    $("nT").textContent = `${nx.format === "reel" ? "Reel" : "Post"} · ${nx.title}`;
+    if (diff <= 0) {
+      box.dataset.state = "live";
+      $("nK").textContent = "Publish now";
+      $("nM").textContent = `Scheduled for ${nx.time}. ${nx.cta}`;
+      $("nL").textContent = "Now"; $("nLL").textContent = "";
+      document.title = `● Publish now · ${nx.title}`;
+    } else if (diff <= RH * 3600000) {
+      box.dataset.state = "alert";
+      $("nK").textContent = "⏰ Prepare now · less than 2 hours";
+      $("nM").textContent = `Goes live ${when}. Final check: visual, caption, hashtags, cover.`;
+      $("nL").textContent = fmtLeft(diff); $("nLL").textContent = "left";
+      document.title = `⏰ ${fmtLeft(diff)} · ${nx.title}`;
+    } else {
+      box.dataset.state = "soon";
+      $("nK").textContent = "Next publication";
+      $("nM").textContent = `${when} · reminder at ${rem(nx.time)}`;
+      $("nL").textContent = fmtLeft(diff); $("nLL").textContent = "to go";
+      document.title = baseTitle;
+    }
+  }
+  updateNext();
+  setInterval(updateNext, 30000);
+})();
+</script>
+
+</body>
+</html>
