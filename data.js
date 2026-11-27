@@ -21,7 +21,7 @@ window.EUNOIA_PLAN = {
     { date: "2026-11-25", time: "21:00", phase: "tease", format: "reel", title: "Teaser reel 1",
       goal: "Reach new accounts and set the mood.",
       cta: "Follow so you don’t miss it." },
-    { date: "2026-11-26", time: "21:00", phase: "tease", format: "reel", title: "Teaser reel 2",
+    { date: "2026-11-27", time: "18:00", phase: "tease", format: "reel", title: "Teaser reel 2",
       goal: "Escalate the mystery.",
       cta: "Comment what you think it spells." },
     { date: "2026-11-27", time: "20:00", phase: "tease", format: "post", title: "EUNOIA · 12.12.2026",
